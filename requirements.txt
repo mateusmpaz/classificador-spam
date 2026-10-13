@@ -1,0 +1,2 @@
+# Biblioteca usada no experimento; o pip instala suas dependências.
+scikit-learn==1.9.1

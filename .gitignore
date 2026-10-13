@@ -1,0 +1,25 @@
+# Ambientes locais e arquivos temporários de Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Configurações locais e credenciais
+.env
+.env.*
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Artefatos gerados nas execuções
+resultados/
+*.joblib
+*.pkl
+
+# Somente a base pública documentada faz parte do repositório.
+dados/*
+!dados/README.md
+!dados/SMSSpamCollection
+!dados/README_original.txt
