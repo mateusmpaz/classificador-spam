@@ -111,7 +111,6 @@ classificador-spam/
 ├── requirements.txt          # Dependência direta fixada
 ├── .gitignore                # Arquivos locais que não entram no Git
 ├── README.md
-├── PUBLICAR_NO_GITHUB.md
 ├── dados/
 │   ├── SMSSpamCollection      # Base pública original
 │   ├── README_original.txt   # Documentação distribuída com a base
