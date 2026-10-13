@@ -1,0 +1,72 @@
+{
+  "scikit_learn": "1.9.1",
+  "sha256_base": "7d039a24a6083ed9ef0f806ebad56bbb976e3aeb8de05669173bfdc4996c239d",
+  "seed": 42,
+  "quantidade_original": 5574,
+  "quantidade_sem_duplicatas": 5171,
+  "contagem_limpa": {
+    "ham": 4518,
+    "spam": 653
+  },
+  "tamanhos": {
+    "treino": 3102,
+    "validacao": 1034,
+    "teste": 1035,
+    "desenvolvimento": 4136
+  },
+  "vocabulario_treino": 6516,
+  "vocabulario_final": 7669,
+  "modelo_final": "regressao_logistica",
+  "criterio_escolha": "F1 de spam na validação do experimento original",
+  "validacao": {
+    "sempre_ham": {
+      "matriz_confusao": [
+        [
+          904,
+          0
+        ],
+        [
+          130,
+          0
+        ]
+      ],
+      "acuracia": 0.874274661508704,
+      "precisao_spam": 0,
+      "recall_spam": 0,
+      "f1_spam": 0
+    },
+    "naive_bayes": {
+      "matriz_confusao": [
+        [
+          904,
+          0
+        ],
+        [
+          50,
+          80
+        ]
+      ],
+      "acuracia": 0.9516441005802708,
+      "precisao_spam": 1,
+      "recall_spam": 0.6153846153846154,
+      "f1_spam": 0.7619047619047619
+    },
+    "regressao_logistica": {
+      "matriz_confusao": [
+        [
+          903,
+          1
+        ],
+        [
+          33,
+          97
+        ]
+      ],
+      "acuracia": 0.9671179883945842,
+      "precisao_spam": 0.9897959183673469,
+      "recall_spam": 0.7461538461538462,
+      "f1_spam": 0.8508771929824561
+    }
+  },
+  "teste": null
+}
